@@ -1,0 +1,4 @@
+@import "tailwindcss";
+
+/* Tailwind v4 da dark modeni klaslar orqali boshqarish qoidasi */
+@variant dark (&:where(.dark, .dark *));
